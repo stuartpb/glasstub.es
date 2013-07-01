@@ -38,7 +38,7 @@ to do something. I can help. **I can make glass tubes.**
 
 > That's what they need.
 
->> - Sam Donovan (William H. Macy), [*Sports Night* Episode 26, "Cliff Gardner"](http://www.youtube.com/watch?v=H-va0tWJLTc)
+> - Sam Donovan (William H. Macy), [*Sports Night* Episode 26, "Cliff Gardner"](http://www.youtube.com/watch?v=H-va0tWJLTc)
 
 [Philo Farnsworth]: http://en.wikipedia.org/wiki/Philo_Farnsworth
 [television]: http://en.wikipedia.org/wiki/Television

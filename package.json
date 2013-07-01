@@ -1,0 +1,24 @@
+{
+  "name": "glasstub.es",
+  "version": "0.0.0",
+  "description": "A getting started guide that actually gets you started.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stuartpb/glasstub.es.git"
+  },
+  "keywords": [
+    "tutorial",
+    "site"
+  ],
+  "author": "Stuart P. Bentley",
+  "license": "CC-BY-SA",
+  "dependencies": {
+    "marked": "~0.2.9",
+    "express": "~3.3.1",
+    "jade": "~0.32.0"
+  }
+}

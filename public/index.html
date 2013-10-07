@@ -6,27 +6,26 @@
     <style>
       html, body {
         height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
-      }
-      main {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
         text-align: center;
       }
-      article {
+      body::before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+      main {
         display: inline-block;
         vertical-align: middle;
+        width: 100%;
       }
     </style>
   </head>
-  <body>
-    <main><article>
-      <a class="twitter-timeline" href="https://twitter.com/glasstubes" data-widget-id="386734538866434048">Tweets by @glasstubes</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </article></main>
-  </body>
+  <body><main>
+    <a class="twitter-timeline" href="https://twitter.com/glasstubes" data-widget-id="386734538866434048">Tweets by @glasstubes</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </main></body>
 </html>
